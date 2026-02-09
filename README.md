@@ -3,9 +3,8 @@
 This repository contains solutions to LeetCode problems organized by topic for DAA (Design and Analysis of Algorithms) coursework.
 
 ## Directory Structure
-
 ```
-LeetCode-Professor-Assignments/
+DAA-LAB/
 │
 ├── Arrays/
 │   ├── LC167_Two_Sum_II.cpp
