@@ -1,70 +1,69 @@
-# LeetCode Professor Assignments
+# DAA Lab Repository
 
-This repository contains solutions to LeetCode problems organized by topic for DAA (Design and Analysis of Algorithms) coursework.
+This repository contains coursework and practice problems for the **Design and Analysis of Algorithms (DAA)** subject.
 
-## Directory Structure
+It includes:
+- Weekly lab assignments
+- LeetCode problems organized by topic
+- Implementation in C++
+
+---
+
+## 📂 Repository Structure
+
 ```
 DAA-LAB/
 │
-├── Arrays/
-│   ├── LC167_Two_Sum_II.cpp
-│   ├── LC26_Remove_Duplicates.cpp
-│   └── LC162_Find_Peak_Element.cpp
+├── Lab_Assignments/
+│ ├── Week_01/
+│ ├── Week_02/
+│ └── Week_03/
 │
-├── BinarySearch/
-│   └── LC33_Search_Rotated_Sorted_Array.cpp
+├── Leetcode/
+│ ├── Arrays/
+│ │ ├── LC26_Remove_Duplicates.cpp
+│ │ ├── LC162_Find_Peak_Element.cpp
+│ │ └── LC167_Two_Sum_II.cpp
+│ │
+│ └── BinarySearch/
+│ └── LC33_Search_Rotated_Sorted_Array.cpp
 │
 └── README.md
 ```
 
-## Problems Included
+---
 
-### Arrays
+## 🧠 Topics Covered
 
-1. **LC167 - Two Sum II (Input Array Is Sorted)**
-   - Difficulty: Medium
-   - Technique: Two Pointers
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
+- Two Pointer Technique  
+- Binary Search  
+- Modified Binary Search (Rotated Array)  
+- In-place Array Manipulation  
+- Time & Space Complexity Analysis  
 
-2. **LC26 - Remove Duplicates from Sorted Array**
-   - Difficulty: Easy
-   - Technique: Two Pointers
-   - Time Complexity: O(n)
-   - Space Complexity: O(1)
+---
 
-3. **LC162 - Find Peak Element**
-   - Difficulty: Medium
-   - Technique: Binary Search
-   - Time Complexity: O(log n)
-   - Space Complexity: O(1)
+## 🛠 Language Used
 
-### Binary Search
+C++
 
-1. **LC33 - Search in Rotated Sorted Array**
-   - Difficulty: Medium
-   - Technique: Modified Binary Search
-   - Time Complexity: O(log n)
-   - Space Complexity: O(1)
+---
 
-## How to Compile and Run
+## ▶ How to Compile
 
-Each C++ file can be compiled and run independently:
+Each file can be compiled independently:
 
 ```bash
-g++ -o output filename.cpp
+g++ filename.cpp -o output
 ./output
-```
 
-Example:
-
-```bash
-g++ -o two_sum Arrays/LC167_Two_Sum_II.cpp
+```Example
+g++ Leetcode/Arrays/LC167_Two_Sum_II.cpp -o two_sum
 ./two_sum
-```
 
 ## Author
 
-Rahul Joshi  
-B.Tech CSE  
-DAA Lab Coursework
+Rahul Joshi
+B.Tech CSE
+DAA Coursework Repository
+
