@@ -63,9 +63,12 @@ g++ Leetcode/Arrays/LC167_Two_Sum_II.cpp -o two_sum
 
 ---
 
-## Author
+```md
+## 👨‍💻 Author
 
-Rahul Joshi
-B.Tech CSE
-DAA Coursework Repository
+**Rahul Joshi**  
+B.Tech CSE  
+Design and Analysis of Algorithms (DAA)
 
+
+---
