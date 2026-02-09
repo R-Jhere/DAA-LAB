@@ -61,9 +61,9 @@ g++ filename.cpp -o output
 g++ Leetcode/Arrays/LC167_Two_Sum_II.cpp -o two_sum
 ./two_sum
 
+```
 ---
 
-```md
 ## 👨‍💻 Author
 
 **Rahul Joshi**  
